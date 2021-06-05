@@ -1,0 +1,223 @@
+/* header */
+nav {
+    background: linear-gradient(to right, rgba(166, 24, 32, 0.8) , rgba(2, 43, 89, 0.8));
+    padding: 30px;
+    margin-bottom: 25px;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* general */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    background: black;
+    background-image: url(fondo.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;   
+    }
+
+strong {
+    font-weight: bolder;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    padding: 10px;
+    text-align: left;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;   
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h1 , h2 , h3 , h4 > span , h2 > span , h3 > span , h3 > cite > span{
+    font-family: 'Play', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+a:hover {
+    color: rgba(166, 24, 32);
+}
+
+.seccion1 , .seccion2 , .seccion3 , .seccion4 {
+    background: linear-gradient(to right, rgba(2, 43, 89, 0.6), rgba(166, 24, 32, 0.6));
+    max-width: 900px;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* seccion 1 */
+
+.contenedor {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contenedor > div > ul {
+    width: 50%;
+}
+
+.contenedor > div > ul > li {
+    padding: 10px;
+}
+
+.contenedor > * {
+    text-align: left;    
+}
+
+.contenedor > div {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contenedor > div > img {
+    text-align: right; 
+    padding-left: 100px;
+}
+
+img {
+    padding: 20px;
+}
+
+
+/* seccion 2 */
+
+
+.centrar {
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+    margin: 50px;
+}
+
+.boton > a {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 30%;
+    font-size: 40px;
+}
+
+.chris {
+    width: 30%;
+    display: inline-block;
+    width: 200px;
+}
+
+
+.texto {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.contenedor2 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+/* seccion 3 */
+
+.lista2 > * {
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    align-items: initial;
+}
+
+/* seccion 4 */
+
+.seccion4 > ul > li {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.seccion4 > ul {
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    background: linear-gradient(to right, rgba(166, 24, 32, 0.8) , rgba(2, 43, 89, 0.6) );
+}
+
+footer > * {
+    justify-content: center;
+    text-align: left;
+    columns: 3;
+    width: 90%;
+}
+
+footer img {
+    border-radius: 50%;
+}
+
+footer div .contenedor3 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.contenedor3 p {
+    padding: 20px;
+}
+
+.socials ul li a {
+    font-size: 30px;
+    text-align: left;
+}
+
+.socials ul li {
+    padding: 15px;
+}
+
+
+.socials {
+    display: inline-block;
+}
